@@ -23,7 +23,7 @@
 &kp ESCAPE  &kp Q  &kp W  &kp F             &kp P             &kp B          &kp J            &kp L   &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
 &kp TAB     &kp A  &kp R  &kp S             &kp T             &kp G          &kp M            &kp N   &kp E      &kp I    &kp O          &kp SQT
 &kp LSHFT   &kp Z  &kp X  &kp C             &kp D             &kp V          &kp K            &kp H   &kp COMMA  &kp DOT  &kp FSLH       &kp ENTER
-                          &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 2 SPACE    &lt 2 BACKSPACE  &tog 3  &kp RALT
+                          &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 1 SPACE    &lt 2 BACKSPACE  &tog 3  &kp RALT
             >;
         };
 
