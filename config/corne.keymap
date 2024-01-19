@@ -23,7 +23,7 @@
 &kp ESCAPE  &kp Q  &kp W  &kp F             &kp P             &kp B          &kp J            &kp L   &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
 &kp TAB     &kp A  &kp R  &kp S             &kp T             &kp G          &kp M            &kp N   &kp E      &kp I    &kp O          &kp SQT
 &kp LSHFT   &kp Z  &kp X  &kp C             &kp D             &kp V          &kp K            &kp H   &kp COMMA  &kp DOT  &kp FSLH       &kp ENTER
-                          &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 1 SPACE    &lt 2 BACKSPACE  &tog 3  &kp RALT
+                          &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 1 SPACE    &lt 3 BACKSPACE  &tog 4  &kp RALT
             >;
         };
 
@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3            &kp N4            &kp N5          &kp N6        &kp N7           &kp N8           &kp N9           &kp N0     &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4    &kp ASTERISK  &kp NUMBER_4     &kp N5           &kp NUMBER_6     &kp PLUS   &kp EQUAL
-&kp LSHFT   &trans        &trans        &trans            &trans            &trans          &kp SLASH     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS  &trans
-                                        &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp SPACE       &kp RET       &kp DOT          &kp KP_NUMBER_0
+&kp TAB    &kp N1        &kp N2        &kp N3            &kp N4            &kp N5          &kp N6        &kp N7        &kp N8           &kp N9        &kp N0     &kp BSPC
+&trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4    &kp ASTERISK  &kp NUMBER_4  &kp N5           &kp NUMBER_6  &kp PLUS   &kp EQUAL
+&kp LSHFT  &trans        &trans        &trans            &sys_reset        &bt BT_CLR      &kp SLASH     &kp NUMBER_1  &kp NUMBER_2     &kp N3        &kp MINUS  &sys_reset
+                                       &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp SPACE       &kp RET       &kp DOT       &kp KP_NUMBER_0
             >;
         };
 
